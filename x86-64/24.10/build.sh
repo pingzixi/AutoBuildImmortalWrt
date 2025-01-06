@@ -30,6 +30,11 @@ PACKAGES="$PACKAGES luci-app-alist"
 PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
 PACKAGES="$PACKAGES luci-app-samba4"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-app-hd-idle"
+PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
+PACKAGES="$PACKAGES luci-app-netdata"
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
+
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
 echo "$PACKAGES"
